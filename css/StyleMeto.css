@@ -1,0 +1,31 @@
+*{
+    /* grosor de contorno  */
+    padding: 0px;
+    /* espacio de margen  */
+    margin: 0px; 
+}
+.Cabezera-principal
+{
+    background-color: blueviolet;
+    /* tamaño de la letra */
+    font-size: 25px;;
+    
+    /* ANCHO DEL CONTENEDOR  */
+    width: 80vw; 
+      /* Largo DEL CONTENEDOR  con respecto ala pantalla */
+    height: 10vh;
+    
+}
+
+.Cabezera-principal__h2
+{
+font-size:300%;
+/* tipo de letra  */
+font-family:sans-serif;
+/* tamaño del contendedor de la letra  */
+line-height: 1;
+/* Grosor de de la letra */
+font-weight: 400;
+
+align-content: center;
+}

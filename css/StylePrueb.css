@@ -1,0 +1,73 @@
+/*----------------------------------------- */
+
+/*      * -> seleccioda UNIVERSAL  todo  */
+
+/* *{ 
+color: red;
+
+} */
+
+/*----------------------------------------- */
+
+/* select de tipo 
+seleccionamos por h1 button etc. etc. */
+
+/* button {
+
+    color: deeppink;
+} */
+
+/*----------------------------------------- */
+
+/* Por clase en el html en cada etiqueta se le debe de poner el atributo 
+class="nombre de la clase sin espcion " */
+
+.titulo-h1 {
+  color: deeppink;
+}
+.titulo-h2 {
+  color: dodgerblue;
+}
+
+/* para aplicar estilo por id lo que hacemos es dar "#nombre_del_id"{ etc. } */
+
+#texto_inicial {
+  color: red;
+}
+
+/*----------------------------------------- */
+
+/* ppara selecionar por atributo en el html debemos de poner nombreatrubuto="algunNombre" 
+y en css hacemos lo siguiente " [nombreatrubuto="algunNombre"] {etc. } " */
+[nuevoatributo="hola"] {
+  color: rgb(119, 20, 20);
+}
+
+/*----------------------------------------- */
+
+/*      SELECCION ASENDENTE  
+para seleccionar de una etiqueta  dentro de otra por ejemplo en el html debe de estar como 
+<h4>
+<p>hola
+</p>
+</h4>     
+
+selecionaremos la primera equiqueta, espacio, la segunda, espacio etc. etc.
+Tanmbien se puede con clases, selecionamos la clase madre, y hacia adentro.
+*/
+h4 p {
+  color: seagreen;
+}
+
+/*----------------------------------------- */
+
+/*                      Seudo clases
+
+Son funciones que se ejecutan cuando el mause pasa por ensima de ellas 
+
+selector ya se la clase, id u otra cosa, dos punto y despues la seudo clase ejemplo  */
+
+.Prueba_seudo_clase:hover{
+color:sienna;
+    
+}
